@@ -1,0 +1,11 @@
+f=@(x) sin(pi*x)+sin(2*pi*x);
+g=@(x) 0;
+a=1;
+b=0.5;
+c=2;
+n=11;
+m=11;
+
+U = diffinitaOnda(f,g,a,b,c,n,m)
+U=U';
+surf(U);
