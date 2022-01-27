@@ -1,12 +1,10 @@
 function U = diffinitaOnda(f,g,a,b,c,n,m)
 %{
 AUTORES: Joel Quintuna, Edwin Munoz
-
 f: funcion f a evaluar
 g: guncion g a evaluar
 a,b,c: extremos a usar
 n,m: cantidad de particiones que vamos a usar
-
 %}
 h = a/(n-1);
 k = b/(m-1);
